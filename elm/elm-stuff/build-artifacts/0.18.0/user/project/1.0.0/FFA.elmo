@@ -1,0 +1,7 @@
+var _user$project$FFA$addAndSubtract = F2(
+	function (add, subtract) {
+		return (0 + add) - subtract;
+	});
+var _user$project$FFA$addAndSubtractOne = A2(_user$project$FFA$addAndSubtract, 9, 7);
+var _user$project$FFA$addAndSubtractTwo = _user$project$FFA$addAndSubtract(7);
+var _user$project$FFA$addAndSubtractThree = _user$project$FFA$addAndSubtract(7)(9);
