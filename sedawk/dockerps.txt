@@ -1,0 +1,3 @@
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS                                                NAMES
+e53a722096f0        aafd21071b99        /opt1/bin/run_all    1 minutes ago      Up 18 minutes       127.0.0.1:49251->22/tcp, 127.0.0.1:49252->9200/tcp   es-1
+0208431f9c7b        aafd21071b99        /opt2/bin/run_all    2 minutes ago      Up 28 minutes       127.0.0.1:49249->22/tcp, 127.0.0.1:49250->9200/tcp   es-2

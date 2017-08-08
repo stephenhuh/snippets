@@ -1,0 +1,110 @@
+Aug  8 01:39:21 MeeteR-DevelopmentServer sshd[20478]: Connection closed by 52.208.241.144 [preauth]
+Aug  8 01:39:24 MeeteR-DevelopmentServer sshd[20480]: message repeated 2 times: [ Failed password for root from 59.45.175.24 port 54856 ssh2]
+Aug  8 01:39:25 MeeteR-DevelopmentServer sshd[20480]: Received disconnect from 59.45.175.24: 11:  [preauth]
+Aug  8 01:39:25 MeeteR-DevelopmentServer sshd[20480]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.45.175.24  user=root
+Aug  8 01:39:26 MeeteR-DevelopmentServer sshd[20482]: Invalid user ubnt from 52.208.241.144
+Aug  8 01:39:26 MeeteR-DevelopmentServer sshd[20482]: input_userauth_request: invalid user ubnt [preauth]
+Aug  8 01:39:26 MeeteR-DevelopmentServer sshd[20482]: pam_unix(sshd:auth): check pass; user unknown
+Aug  8 01:39:26 MeeteR-DevelopmentServer sshd[20482]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-208-241-144.eu-west-1.compute.amazonaws.com 
+Aug  8 01:39:28 MeeteR-DevelopmentServer sshd[20484]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.45.175.24  user=root
+Aug  8 01:39:29 MeeteR-DevelopmentServer sshd[20482]: Failed password for invalid user ubnt from 52.208.241.144 port 38748 ssh2
+Aug  8 01:39:30 MeeteR-DevelopmentServer sshd[20484]: Failed password for root from 59.45.175.24 port 57128 ssh2
+Aug  8 01:39:30 MeeteR-DevelopmentServer sshd[20482]: Connection closed by 52.208.241.144 [preauth]
+Aug  8 01:39:34 MeeteR-DevelopmentServer sshd[20484]: message repeated 2 times: [ Failed password for root from 59.45.175.24 port 57128 ssh2]
+Aug  8 01:39:35 MeeteR-DevelopmentServer sshd[20484]: Received disconnect from 59.45.175.24: 11:  [preauth]
+Aug  8 01:39:35 MeeteR-DevelopmentServer sshd[20484]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.45.175.24  user=root
+Aug  8 01:39:36 MeeteR-DevelopmentServer sshd[20486]: Invalid user ubnt from 52.208.241.144
+Aug  8 01:39:36 MeeteR-DevelopmentServer sshd[20486]: input_userauth_request: invalid user ubnt [preauth]
+Aug  8 01:39:36 MeeteR-DevelopmentServer sshd[20486]: pam_unix(sshd:auth): check pass; user unknown
+Aug  8 01:39:36 MeeteR-DevelopmentServer sshd[20486]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-208-241-144.eu-west-1.compute.amazonaws.com 
+Aug  8 01:39:38 MeeteR-DevelopmentServer sshd[20486]: Failed password for invalid user ubnt from 52.208.241.144 port 38874 ssh2
+Aug  8 01:39:39 MeeteR-DevelopmentServer sshd[20486]: Connection closed by 52.208.241.144 [preauth] 
+Aug  8 01:39:45 MeeteR-DevelopmentServer sshd[20505]: Invalid user ubnt from 52.208.241.144
+Aug  8 01:39:45 MeeteR-DevelopmentServer sshd[20505]: input_userauth_request: invalid user ubnt [preauth]
+Aug  8 01:39:45 MeeteR-DevelopmentServer sshd[20507]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.177.172.10  user=root
+Aug  8 01:39:46 MeeteR-DevelopmentServer sshd[20505]: pam_unix(sshd:auth): check pass; user unknown
+Aug  8 01:39:46 MeeteR-DevelopmentServer sshd[20505]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-208-241-144.eu-west-1.compute.amazonaws.com 
+Aug  8 01:39:47 MeeteR-DevelopmentServer sshd[20507]: Failed password for root from 61.177.172.10 port 34885 ssh2
+Aug  8 01:39:48 MeeteR-DevelopmentServer sshd[20505]: Failed password for invalid user ubnt from 52.208.241.144 port 38982 ssh2
+Aug  8 01:39:50 MeeteR-DevelopmentServer sshd[20505]: Connection closed by 52.208.241.144 [preauth]
+Aug  8 01:39:50 MeeteR-DevelopmentServer sshd[20507]: message repeated 2 times: [ Failed password for root from 61.177.172.10 port 34885 ssh2]
+Aug  8 01:39:51 MeeteR-DevelopmentServer sshd[20507]: Received disconnect from 61.177.172.10: 11:  [preauth]
+Aug  8 01:39:51 MeeteR-DevelopmentServer sshd[20507]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.177.172.10  user=root
+Aug  8 01:39:54 MeeteR-DevelopmentServer sshd[20509]: Invalid user ubnt from 52.208.241.144
+Aug  8 01:39:54 MeeteR-DevelopmentServer sshd[20509]: input_userauth_request: invalid user ubnt [preauth]
+Aug  8 01:39:55 MeeteR-DevelopmentServer sshd[20509]: pam_unix(sshd:auth): check pass; user unknown
+Aug  8 01:39:55 MeeteR-DevelopmentServer sshd[20509]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-208-241-144.eu-west-1.compute.amazonaws.com 
+Aug  8 01:39:57 MeeteR-DevelopmentServer sshd[20509]: Failed password for invalid user ubnt from 52.208.241.144 port 39108 ssh2
+Aug  8 01:39:59 MeeteR-DevelopmentServer sshd[20509]: Connection closed by 52.208.241.144 [preauth]
+Aug  8 01:40:00 MeeteR-DevelopmentServer sshd[20512]: Invalid user vagrant from 47.190.27.79
+Aug  8 01:40:00 MeeteR-DevelopmentServer sshd[20512]: input_userauth_request: invalid user vagrant [preauth]
+Aug  8 01:40:00 MeeteR-DevelopmentServer sshd[20512]: pam_unix(sshd:auth): check pass; user unknown
+Aug  8 01:40:00 MeeteR-DevelopmentServer sshd[20512]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=47.190.27.79 
+Aug  8 01:40:02 MeeteR-DevelopmentServer sshd[20512]: Failed password for invalid user vagrant from 47.190.27.79 port 39011 ssh2
+Aug  8 01:40:02 MeeteR-DevelopmentServer sshd[20512]: Received disconnect from 47.190.27.79: 11: Normal Shutdown, Thank you for playing [preauth]
+Aug  8 01:40:04 MeeteR-DevelopmentServer sshd[20511]: Invalid user ubnt from 52.208.241.144
+Aug  8 01:40:04 MeeteR-DevelopmentServer sshd[20511]: input_userauth_request: invalid user ubnt [preauth]
+Aug  8 01:40:05 MeeteR-DevelopmentServer sshd[20511]: pam_unix(sshd:auth): check pass; user unknown
+Aug  8 01:40:05 MeeteR-DevelopmentServer sshd[20511]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-208-241-144.eu-west-1.compute.amazonaws.com 
+Aug  8 01:40:06 MeeteR-DevelopmentServer sshd[20511]: Failed password for invalid user ubnt from 52.208.241.144 port 39234 ssh2
+Aug  8 01:40:07 MeeteR-DevelopmentServer sshd[20511]: Connection closed by 52.208.241.144 [preauth]
+Aug  8 01:40:11 MeeteR-DevelopmentServer sshd[20532]: Invalid user ubnt from 52.208.241.144
+Aug  8 01:40:11 MeeteR-DevelopmentServer sshd[20532]: input_userauth_request: invalid user ubnt [preauth]
+Aug  8 01:40:12 MeeteR-DevelopmentServer sshd[20532]: pam_unix(sshd:auth): check pass; user unknown
+Aug  8 01:40:12 MeeteR-DevelopmentServer sshd[20532]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-208-241-144.eu-west-1.compute.amazonaws.com 
+Aug  8 01:40:13 MeeteR-DevelopmentServer sshd[20532]: Failed password for invalid user ubnt from 52.208.241.144 port 39340 ssh2
+Aug  8 01:40:15 MeeteR-DevelopmentServer sshd[20532]: Connection closed by 52.208.241.144 [preauth]
+Aug  8 01:40:21 MeeteR-DevelopmentServer sshd[20534]: Invalid user ubnt from 52.208.241.144
+Aug  8 01:40:21 MeeteR-DevelopmentServer sshd[20534]: input_userauth_request: invalid user ubnt [preauth]
+Aug  8 01:40:22 MeeteR-DevelopmentServer sshd[20534]: pam_unix(sshd:auth): check pass; user unknown
+Aug  8 01:40:22 MeeteR-DevelopmentServer sshd[20534]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-208-241-144.eu-west-1.compute.amazonaws.com 
+Aug  8 01:40:24 MeeteR-DevelopmentServer sshd[20534]: Failed password for invalid user ubnt from 52.208.241.144 port 39428 ssh2
+Aug  8 01:40:25 MeeteR-DevelopmentServer sshd[20534]: Connection closed by 52.208.241.144 [preauth]
+Aug  8 01:40:28 MeeteR-DevelopmentServer sshd[20536]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.177.172.10  user=root
+Aug  8 01:40:29 MeeteR-DevelopmentServer sshd[20536]: Failed password for root from 61.177.172.10 port 44306 ssh2
+Aug  8 01:40:30 MeeteR-DevelopmentServer sshd[20538]: Invalid user ubnt from 52.208.241.144
+Aug  8 01:40:30 MeeteR-DevelopmentServer sshd[20538]: input_userauth_request: invalid user ubnt [preauth]
+Aug  8 01:40:31 MeeteR-DevelopmentServer sshd[20538]: pam_unix(sshd:auth): check pass; user unknown
+Aug  8 01:40:31 MeeteR-DevelopmentServer sshd[20538]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-208-241-144.eu-west-1.compute.amazonaws.com 
+Aug  8 01:40:33 MeeteR-DevelopmentServer sshd[20538]: Failed password for invalid user ubnt from 52.208.241.144 port 39548 ssh2
+Aug  8 01:40:34 MeeteR-DevelopmentServer sshd[20538]: Connection closed by 52.208.241.144 [preauth]
+Aug  8 01:40:34 MeeteR-DevelopmentServer sshd[20536]: message repeated 2 times: [ Failed password for root from 61.177.172.10 port 44306 ssh2]
+Aug  8 01:40:34 MeeteR-DevelopmentServer sshd[20536]: Received disconnect from 61.177.172.10: 11:  [preauth]
+Aug  8 01:40:34 MeeteR-DevelopmentServer sshd[20536]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.177.172.10  user=root
+Aug  8 01:40:39 MeeteR-DevelopmentServer sshd[20557]: Invalid user ubnt from 52.208.241.144
+Aug  8 01:40:39 MeeteR-DevelopmentServer sshd[20557]: input_userauth_request: invalid user ubnt [preauth]
+Aug  8 01:40:40 MeeteR-DevelopmentServer sshd[20557]: pam_unix(sshd:auth): check pass; user unknown
+Aug  8 01:40:40 MeeteR-DevelopmentServer sshd[20557]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-208-241-144.eu-west-1.compute.amazonaws.com 
+Aug  8 01:40:42 MeeteR-DevelopmentServer sshd[20557]: Failed password for invalid user ubnt from 52.208.241.144 port 39680 ssh2
+Aug  8 01:40:43 MeeteR-DevelopmentServer sshd[20557]: Connection closed by 52.208.241.144 [preauth]
+Aug  8 01:40:48 MeeteR-DevelopmentServer sshd[20559]: Invalid user ubnt from 52.208.241.144
+Aug  8 01:40:48 MeeteR-DevelopmentServer sshd[20559]: input_userauth_request: invalid user ubnt [preauth]
+Aug  8 01:40:50 MeeteR-DevelopmentServer sshd[20559]: pam_unix(sshd:auth): check pass; user unknown
+Aug  8 01:40:50 MeeteR-DevelopmentServer sshd[20559]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-208-241-144.eu-west-1.compute.amazonaws.com 
+Aug  8 01:40:52 MeeteR-DevelopmentServer sshd[20559]: Failed password for invalid user ubnt from 52.208.241.144 port 39794 ssh2
+Aug  8 01:40:54 MeeteR-DevelopmentServer sshd[20559]: Connection closed by 52.208.241.144 [preauth]
+Aug  8 01:40:58 MeeteR-DevelopmentServer sshd[20561]: Invalid user ubnt from 52.208.241.144
+Aug  8 01:40:58 MeeteR-DevelopmentServer sshd[20561]: input_userauth_request: invalid user ubnt [preauth]
+Aug  8 01:40:58 MeeteR-DevelopmentServer sshd[20561]: pam_unix(sshd:auth): check pass; user unknown
+Aug  8 01:40:58 MeeteR-DevelopmentServer sshd[20561]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-208-241-144.eu-west-1.compute.amazonaws.com 
+Aug  8 01:41:00 MeeteR-DevelopmentServer sshd[20561]: Failed password for invalid user ubnt from 52.208.241.144 port 39906 ssh2
+Aug  8 01:41:01 MeeteR-DevelopmentServer sshd[20561]: Connection closed by 52.208.241.144 [preauth]
+Aug  8 01:41:06 MeeteR-DevelopmentServer sshd[20582]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.177.172.10  user=root
+Aug  8 01:41:07 MeeteR-DevelopmentServer sshd[20582]: Failed password for root from 61.177.172.10 port 23739 ssh2
+Aug  8 01:41:07 MeeteR-DevelopmentServer sshd[20563]: Invalid user ubnt from 52.208.241.144
+Aug  8 01:41:07 MeeteR-DevelopmentServer sshd[20563]: input_userauth_request: invalid user ubnt [preauth]
+Aug  8 01:41:09 MeeteR-DevelopmentServer sshd[20563]: pam_unix(sshd:auth): check pass; user unknown
+Aug  8 01:41:09 MeeteR-DevelopmentServer sshd[20563]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-208-241-144.eu-west-1.compute.amazonaws.com 
+Aug  8 01:41:11 MeeteR-DevelopmentServer sshd[20563]: Failed password for invalid user ubnt from 52.208.241.144 port 40044 ssh2
+Aug  8 01:41:11 MeeteR-DevelopmentServer sshd[20582]: message repeated 2 times: [ Failed password for root from 61.177.172.10 port 23739 ssh2]
+Aug  8 01:41:12 MeeteR-DevelopmentServer sshd[20582]: Received disconnect from 61.177.172.10: 11:  [preauth]
+Aug  8 01:41:12 MeeteR-DevelopmentServer sshd[20582]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.177.172.10  user=root
+Aug  8 01:41:12 MeeteR-DevelopmentServer sshd[20563]: Connection closed by 52.208.241.144 [preauth]
+Aug  8 01:41:17 MeeteR-DevelopmentServer sshd[20584]: Invalid user ubnt from 52.208.241.144
+Aug  8 01:41:17 MeeteR-DevelopmentServer sshd[20584]: input_userauth_request: invalid user ubnt [preauth]
+Aug  8 01:41:18 MeeteR-DevelopmentServer sshd[20584]: pam_unix(sshd:auth): check pass; user unknown
+Aug  8 01:41:18 MeeteR-DevelopmentServer sshd[20584]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-208-241-144.eu-west-1.compute.amazonaws.com 
+Aug  8 01:41:20 MeeteR-DevelopmentServer sshd[20584]: Failed password for invalid user ubnt from 52.208.241.144 port 40152 ssh2
+Aug  8 01:41:22 MeeteR-DevelopmentServer sshd[20584]: Connection closed by 52.208.241.144 [preauth]
+Aug  8 01:41:26 MeeteR-DevelopmentServer sshd[20586]: Invalid user ubnt from 52.208.241.144
+Aug  8 01:41:26 MeeteR-DevelopmentServer sshd[20586]: input_userauth_request: invalid user ubnt [preauth]
