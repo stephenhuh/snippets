@@ -5,9 +5,10 @@ var webdriver = require('selenium-webdriver'),
 var driver = new webdriver.Builder()
     .forBrowser('chrome')
         .build();
-
         driver.get('http://www.google.com/ncr');
         driver.findElement(By.name('q')).sendKeys('webdriver');
-        driver.findElement(By.name('btnG')).click();
-        driver.wait(until.titleIs('webdriver - Google Search'), 1000);
+        driver.findElement(By.name('btnK')).click();
+        driver.getTitle().then(function(title) {
+          return title === 'webdriver - Google Search' ;
+        });
         driver.quit();
