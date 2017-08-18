@@ -22,7 +22,7 @@ function Promise() {
   //Pormise.resolve(value) traditionally returns a Promise object that is resolved with the given value.
   function resolve (result) {
     try {
-      var the = getThen(result);
+      var then = getThen(result);
       if (then) {
         doResolve(then.bind(result), resolve, reject)
         return
