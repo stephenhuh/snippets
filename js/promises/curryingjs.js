@@ -1,0 +1,1 @@
+//Currying is transforming a function of arbitrary arity into a composition of unary functions. Partial application is producing a function of reduced arity by binding fixed values to some of the original function’s arguments.
