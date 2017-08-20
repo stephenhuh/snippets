@@ -3,6 +3,7 @@ let isItThree = function(number) {
     if (number === 3) {
       resolve("yes");
     } else {
+      throw new Error("What happens if i throw");
       callAFunctionThatDoesNotExist();
       reject("no");
     }

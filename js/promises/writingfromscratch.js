@@ -4,9 +4,20 @@
 const sPromise = function(fn, resolve, reject){
   this.state = 0;
   this.fn = fn;
+  this.value = null;
+
+  function getState() {
+
+    return this.state; 
+  }
+
+  function transitionState(currentState) {
+  
+  }
+
+
 
   function getThen() {
-     
   }
 
    /**
@@ -14,16 +25,23 @@ const sPromise = function(fn, resolve, reject){
     * @param {onRejected}
     * @returns {undefined}
     */
-
+  //2.2.1 from A+ spec
   this.then = function(onFulfilled, onRejected) {
-    fn.bind(null, onFulfilled)();
-    return this;
+    if (typeof onFulfilled === 'function') {
+      fn.bind(null, onFulfilled, onRejected)();
+      return this;
+    } 
+    if (typeof onRejected === 'function') {
+    
+    }
   }
 
+  /* TODO: find out why this wont work without the onRejected above */
   this.catch = function(onRejected) {
-    fn.bind(null, function() {console.log("rando");} , onRejected)();
+    fn.bind(null, null, onRejected)();
     console.log("ending not chainable");
   }
+  */
 
 }
 
@@ -38,8 +56,11 @@ const isItThree = function(number) {
 }
 
 isItThree(4)
-  .then(function(res) {
+.then(
+  function(res) {
     console.log("resolved with then", res);
+  }, function(err){
+    console.log("rejected with err as second calback", err);
   })
   .catch(function(err){
     console.log("rejected with err", err);
