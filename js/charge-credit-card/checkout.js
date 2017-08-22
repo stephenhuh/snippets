@@ -23,27 +23,26 @@ const chargeCreditCard = function(purchaseInfo) {
       console.error("Insufficient balance");
     }
 }
-
-const checkout = function checkout(purchaseInfo) {
-  verifyPaymentInfo(purchaseInfo, function finishPurchase() {
-    chargeCreditCard(purchaseInfo); 
-    sendThankYouEmail(purchaseInfo.email);
-    emptyCart();
-  });
-  return;
+const checkout = function checkout (purchaseInfo){
+  verifyPaymentInfo(purchaseInfo)
+    .then((res)=> {
+      chargeCreditCard(purchaseInfo); 
+      sendThankYouEmail(purchaseInfo.email);
+      emptyCart();
+    })
+    .catch((err) => {
+      console.error(err);
+    })
 }
 
 
+//TODO:Include purchaseInfo
+const purchaseInfo = {
+  username : 'stevie',
+  email : 'stevie@projecttwine.com',
+  item : 'Air Force 1s',
+  price : 70
+}
+
 checkout(purchaseInfo);
 
-/*
-checkout(purchaseInfo)
-  .then((res) => {
-    chargeCreditCard(purchaseInfo); 
-    sendThankYouEmail(purchaseInfo.email);
-    emptyCart();
-  })
-  .catch((err)=> {
-    displayError(); 
-  })
-  */
