@@ -10,10 +10,12 @@ let emptyCart = function(){
 }
 
 let displayError = function(){
-  retrun;
+  return;
 }
 
+
 let balance = 1000;
+
 const chargeCreditCard = function(purchaseInfo) {
     balance -= purchaseInfo.price;
     if (balance > 0) {
@@ -23,26 +25,40 @@ const chargeCreditCard = function(purchaseInfo) {
       console.error("Insufficient balance");
     }
 }
-const checkout = function checkout (purchaseInfo){
+
+/*
+const checkout = function(purchaseInfo){
+  verifyPaymentInfo(purchaseInfo, function finishPurchase(err, res){
+    if (err) {
+      jj  
+    }
+    chargeCreditCard(purchaseInfo);
+    sendThankYouEmail(purchaseInfo.email);
+    emptyCart();
+  });
+}
+*/
+
+const checkout = function(purchaseInfo) {
   verifyPaymentInfo(purchaseInfo)
-    .then((res)=> {
-      chargeCreditCard(purchaseInfo); 
+    .then((res)=>{
+      chargeCreditCard(purchaseInfo);
       sendThankYouEmail(purchaseInfo.email);
       emptyCart();
     })
-    .catch((err) => {
-      console.error(err);
+    .catch((err) =>{
+      console.error(err); 
     })
 }
 
-
-//TODO:Include purchaseInfo
 const purchaseInfo = {
   username : 'stevie',
   email : 'stevie@projecttwine.com',
   item : 'Air Force 1s',
   price : 70
-}
+};
+
+
 
 checkout(purchaseInfo);
 

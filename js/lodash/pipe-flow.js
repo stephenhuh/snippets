@@ -20,3 +20,13 @@ let resTwo = addSquarePipe(3,4);
 if (resTwo === res) {
   console.log("ya theyre the same");
 }
+
+let addSquareCompose = fp.compose([add,square]);
+let resThree = addSquareCompose(3,4);
+console.log(resThree);
+
+if (resThree === resTwo) {
+  console.log("same as compose");
+} else {
+  console.log("not on compose", resThree);
+}
