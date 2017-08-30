@@ -26,22 +26,9 @@ const chargeCreditCard = function(purchaseInfo) {
     }
 }
 
-/*
-const checkout = function(purchaseInfo){
-  verifyPaymentInfo(purchaseInfo, function finishPurchase(err, res){
-    if (err) {
-      jj  
-    }
-    chargeCreditCard(purchaseInfo);
-    sendThankYouEmail(purchaseInfo.email);
-    emptyCart();
-  });
-}
-*/
-
 const checkout = function(purchaseInfo) {
   verifyPaymentInfo(purchaseInfo)
-    .then((res)=>{
+    .then(() => {
       chargeCreditCard(purchaseInfo);
       sendThankYouEmail(purchaseInfo.email);
       emptyCart();
@@ -51,14 +38,13 @@ const checkout = function(purchaseInfo) {
     })
 }
 
+
 const purchaseInfo = {
-  username : 'stevie',
+  username : 'Stevie',
   email : 'stevie@projecttwine.com',
   item : 'Air Force 1s',
   price : 70
 };
-
-
 
 checkout(purchaseInfo);
 
