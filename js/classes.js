@@ -5,4 +5,8 @@ class human {
  respeak(){
  	this.speak();
  }
+ let lock = "123";
 }
+
+x = new human();
+console.log(x.lock);

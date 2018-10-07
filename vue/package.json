@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "vue": "^2.5.16",
+    "vue-style-loader": "^4.1.1"
+  }
+}
