@@ -1,0 +1,2 @@
+#!/usr/bin/env bash -xe
+protoc --cpp_out=./ Person.proto
