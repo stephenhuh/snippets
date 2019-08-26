@@ -1,0 +1,24 @@
+---
+title: "tails"
+author: "Stephen Huh"
+date: "8/26/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r}
+ys <- dnorm(100, mean=0, sd=1)
+xs <- seq(-1, 1, 0.1)
+
+
+```
+
+```{r}
+x = rnorm(50000,mean=0,sd=1)
+plot(density(x), main='monte carlo on standard normal')
+```
