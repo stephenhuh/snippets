@@ -11,14 +11,22 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
+plotting x y
 ```{r}
 ys <- dnorm(100, mean=0, sd=1)
 xs <- seq(-1, 1, 0.1)
-
-
+plot(xs, ys)
+```
+monte carlo using density
+```{r}
+x = rnorm(50000,mean=0,sd=1) # sampling from stdnormal
+plot(density(x), main='monte carlo on standard normal')
 ```
 
+
+
 ```{r}
-x = rnorm(50000,mean=0,sd=1)
-plot(density(x), main='monte carlo on standard normal')
+xs <- seq(-1, 1, 0.0001)
+ys <- pnorm(xs, mean=0, sd=1)
+plot(xs, ys)
 ```
