@@ -1,0 +1,4 @@
+#!/usr/bin/env bash -xe
+echo 'one two three' | xargs mkdir
+ls
+echo 'one two three' | xargs rmdir
