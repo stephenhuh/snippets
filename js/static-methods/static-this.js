@@ -51,3 +51,17 @@ const mainES5 = () => {
 
 main();
 mainES5();
+
+class Child extends Parent {
+  constructor(){
+    super();
+    this.place = 'Greenland'
+  }
+}
+
+const mainExtend = () => {
+  Child.sayHello();
+}
+
+mainExtend();
+
