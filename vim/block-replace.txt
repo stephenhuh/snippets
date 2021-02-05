@@ -1,0 +1,38 @@
+1. hello
+2. world
+3. how 
+4. are you
+5. can we
+6. change this
+7. to a unordered list
+1. hello
+2. world
+3. how 
+4. are you
+5. can we
+6. change this
+7. to a unordered list
+1. hello
+2. world
+3. how 
+4. are you
+5. can we
+6. change this
+7. to a unordered list
+1. hello
+2. world
+3. how 
+4. are you
+5. can we
+6. change this
+7. to a unordered list
+
+<C-v> 6jlc*
+
+* hello
+* world
+* how
+* are you
+* can we
+* change this
+* to a unordered list
