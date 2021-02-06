@@ -1,0 +1,10 @@
+bananas
+apples
+cows
+diet coke
+
+sort the above with
+!4Gsort
+
+Sat Feb  6 16:01:44 EST 2021
+Sat Feb  6 16:01:51 EST 2021

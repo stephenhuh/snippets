@@ -1,0 +1,4 @@
+hello
+world
+how many words does this file have?
+run :! wc %
