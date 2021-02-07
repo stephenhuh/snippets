@@ -1,0 +1,8 @@
+"hello"
+"let's record a macro to wrap all this "
+"in quotes"
+
+
+run qaI"ESCA"ESCj0
+replay @a
+replay last used @@
